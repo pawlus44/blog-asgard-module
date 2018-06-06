@@ -27,7 +27,7 @@
     "php": ">=7.0.0",
     "composer/installers": "~1.0",
     "idavoll/core-module": "~3.0",
-    "idavoll/media-module": "~3.0",
+    "pawlus44l/media-module": "~3.0",
     "idavoll/tag-module": "~3.0",
     "doctrine/dbal": "^2.5"
   },
@@ -59,4 +59,4 @@
           "reference": "master"
       }
   }
-}
+} 
