@@ -52,7 +52,7 @@
   "prefer-stable": true,
   "package": {
       "name": "pawlus44/blog-module",
-      "version": "dev-master",
+      "version": "2.0.1",
       "source": {
           "url": "git://github.com/pawlus44/blog-asgard-module.git",
           "type": "git",

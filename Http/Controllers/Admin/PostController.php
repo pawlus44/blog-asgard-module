@@ -11,6 +11,7 @@ use Modules\Blog\Repositories\PostRepository;
 use Modules\Core\Http\Controllers\Admin\AdminBaseController;
 use Modules\Media\Repositories\FileRepository;
 use Illuminate\Support\Facades\Auth;
+use Nwidart\Modules\Facades\Module;
 
 class PostController extends AdminBaseController
 {
@@ -42,6 +43,10 @@ class PostController extends AdminBaseController
         $this->category = $category;
         $this->file = $file;
         $this->status = $status;
+
+        $this->assetManager->addAsset('bootstrap-datetimepicker.js', Module::asset('blog:datetimepicker/bootstrap-datetimepicker.js'));
+        $this->assetManager->addAsset('bootstrap-datetimepicker.min.css', Module::asset('blog:datetimepicker/bootstrap-datetimepicker.min.css'));
+        $this->assetManager->addAsset('my-datetimepicker-script.js', Module::asset('blog:datetimepicker/my-datetimepicker-script.js'));
     }
 
     /**
