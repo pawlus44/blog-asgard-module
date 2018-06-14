@@ -45,14 +45,14 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-2.0": "2.0.2"
+      "dev-2.0": "2.0.x-dev"
     }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "package": {
       "name": "pawlus44/blog-module",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "source": {
           "url": "git://github.com/pawlus44/blog-asgard-module.git",
           "type": "git",
