@@ -27,7 +27,7 @@
     "php": ">=7.0.0",
     "composer/installers": "~1.0",
     "idavoll/core-module": "~3.0",
-    "pawlus44/media-module": "~3.0",
+    "pawlus44/media-module": "~3.0.2",
     "idavoll/tag-module": "~3.0",
     "doctrine/dbal": "^2.5"
   },
@@ -52,7 +52,7 @@
   "prefer-stable": true,
   "package": {
       "name": "pawlus44/blog-module",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "source": {
           "url": "git://github.com/pawlus44/blog-asgard-module.git",
           "type": "git",
