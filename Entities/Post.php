@@ -76,6 +76,17 @@ class Post extends Model implements TaggableInterface
     }
 
 
+    public function getGalleryAttribute()
+    {
+        $gallery = $this->files()->where('zone', 'gallery')->get();
+
+        if ($gallery === null) {
+            return '';
+        }
+
+        return $gallery;
+    }
+
 
     /**
      * Check if the post is in draft
